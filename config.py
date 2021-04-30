@@ -4,7 +4,7 @@ SKIP_PENDING = False  # Skip pending updates on bot startup
 PLAYERS_COUNT_TO_START = 4  # Minimal quantity of players that is required to start mafia game
 PLAYERS_COUNT_LIMIT = 10  # Maximum quantity of players that is allowed to start mafia game
 REQUEST_OVERDUE_TIME = 10 * 60  # Time (in seconds) of request's inactivity after which it gets deleted from database
-WORD_BASE = '/root/test6/src/words.txt'  # File encoded with cp1251 containing word on each line
+WORD_BASE = '/root/games/src/words.txt'  # File encoded with cp1251 containing word on each line
 DELETE_FROM_EVERYONE = False  # Should bot delete messages from everyone in the chat and not just players?
 
 SET_WEBHOOK = False  # Uses long polling if set to False
